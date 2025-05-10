@@ -1,4 +1,4 @@
-# **SEED Labs – SQL Input Handling and Validation Lab**
+# **SQL Input Handling and Validation Lab**
 
 ## 📌 Overview  
 This lab focuses on understanding how web applications interact with SQL databases and how improper input validation can affect the integrity of database operations. By observing the behavior of SQL queries when handling user-provided inputs, learners can better grasp the importance of secure coding practices and query construction.
