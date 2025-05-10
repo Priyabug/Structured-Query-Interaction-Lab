@@ -39,3 +39,20 @@ Download and set up the lab environment using Docker:
 $ docker-compose build   # Build container image
 $ docker-compose up      # Start the container
 $ docker-compose down    # Stop the container
+
+
+## 🗄️ MySQL Database
+
+- **Database:** `sqllab_users`
+- **Table:** `credential`
+
+### 🔹 MySQL Credentials:
+- **Username:** `root`
+- **Password:** `dees`
+
+### 🔹 Connect to MySQL inside the container:
+```bash
+$ mysql -u root -pdees
+mysql> use sqllab_users;
+mysql> show tables;
+
